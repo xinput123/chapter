@@ -16,6 +16,7 @@ public class CollectionUtils {
 	 * 判断Collection是否为空
 	 */
 	public static boolean isEmpty(Collection<?> collection){
+		org.apache.commons.collections4.CollectionUtils.isEmpty(collection);
 		return CollectionUtils.isEmpty(collection);
 	}
 
